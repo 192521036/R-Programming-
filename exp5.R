@@ -1,0 +1,16 @@
+a <- c("Short", "Medium", "Tall", "Medium", "Tall", "Short")
+b <- factor(a)
+print(b)
+set.seed(10)
+x <- sample(LETTERS[1:5], 8, replace = TRUE)
+d <- factor(x)
+print(d)
+
+a <- c("Short", "Medium", "Tall", "Medium", "Tall", "Short")
+b <- factor(a)
+print(b)
+
+set.seed(10)
+letters_sample <- sample(LETTERS[1:5], 8, replace = TRUE)
+d <- factor(letters_sample)
+print(d)
